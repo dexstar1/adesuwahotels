@@ -187,7 +187,7 @@ body{
 }
 
 .room-details{    
-    background-color: #0000005c;
+    background-color: transparent;
     padding: 5px 15px;
     position: absolute;
     bottom: 0;
@@ -215,10 +215,9 @@ body{
     z-index: 999;
     position: relative;
     border: none !important;
-    border-radius: 0px !important;
-    box-shadow: rgba(0, 0, 0, 0.38) 4px 4px 20px 0px;
-    margin: auto !important;
-    width: 33.3% !important;
+    border-radius: 10px !important;
+    margin: 5px !important;
+    width: 32.3% !important;
     cursor: pointer;
 }
 
@@ -247,8 +246,12 @@ body{
 
 
 #features1-w {
-    padding: 100px 0px !important;
+    padding: 100px !important;
     background-color: #f7f7f7 !important;
+}
+
+.features-sec, .room-sec{
+    padding:100px !important;
 }
 
 ..mbr-section__container--center{
