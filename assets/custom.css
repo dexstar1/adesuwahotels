@@ -216,7 +216,7 @@ body{
     position: relative;
     border: none !important;
     border-radius: 10px !important;
-    margin: 5px !important;
+    margin: 0px !important;
     width: 31.3% !important;
     cursor: pointer;
 }
@@ -229,6 +229,7 @@ body{
     margin: auto !important;
     border-radius: 0px !important;
     transition: 0.7s;
+    box-shadow: none !important;
 }
 
 .carousel-inner > .item > img {
